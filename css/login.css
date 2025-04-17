@@ -60,3 +60,25 @@
         }
     }
 }
+
+.content-box {
+    .form-box {
+        .ul {
+            li {
+                &:hover {
+                    background-color: #e4e4e4;
+                }
+            }
+        }
+    }
+}
+
+.form-box {
+    .ul {
+        li {
+            img {
+                width: 40px;
+            }
+        }
+    }
+}
